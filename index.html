@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body  style="background-color: grey;">
+
+  <div class="bg-black" >
+    <div style="text-align: center; background-color: rgb(225, 15, 187);" class="container-fluid col-lg-5 col-md-12;" >
+    <h1 style="text-align: center;color: rgb(19, 236, 48);">Checking a number NEGATIVE OR POSITIVE</h1>
+
+    <!-- <div style="text-align: center; margin-top: 100px;">
+        <input style="text-align: center;" type="text" name="" id="a2" placeholder="enter number">
+        <button  type="button" onclick="negPos()">check</button>
+    </div> -->
+    <!-- <div style="text-align: center; margin-top: 100px;" class="col-lg-5 col-md-12" > -->
+        <input style="text-align: center;margin-top: 40px;width: 150px; height: 30px;" type="text" name="" id="a2" placeholder="enter number"><br>
+        <br>
+           <button style="width: 150px; height: 30px; background-color: darkblue;" type="button" onclick="negPos()">check</button>
+           <br>
+         </div>
+</div>
+
+</body>
+<script>
+    function negPos(){
+        num=parseInt(a2.value)
+        n=0
+        if(num>n){
+            alert (`${num} is positive number`)
+        }
+        else if(num==0){
+            alert (`${num} is zero `)
+        }
+        else{
+            alert (`${num} is negative number`)
+        }
+    }
+
+</script>
+</html>
